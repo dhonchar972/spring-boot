@@ -39,8 +39,6 @@ public class ToDoRepository implements CommonRepository<ToDo> {
                     "completed = :completedwhere id = :id";
     private static final String SQL_DELETE = "delete from todo where id = :id";
 
-
-
     private final RowMapper<ToDo> toDoRowMapper = (ResultSet rs, int rowNum) -> {
         ToDo toDo = new ToDo();
         toDo.setId(rs.getString("id"));

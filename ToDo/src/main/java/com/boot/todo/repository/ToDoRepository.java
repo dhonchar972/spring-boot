@@ -13,7 +13,6 @@ import java.util.stream.Collectors;
  * Created by Dmytro Honchar
  * Date: 7/14/2022
  */
-
 @Repository
 public class ToDoRepository implements CommonRepository<ToDo> {
     private final Map<String, ToDo> toDos = new HashMap<>();

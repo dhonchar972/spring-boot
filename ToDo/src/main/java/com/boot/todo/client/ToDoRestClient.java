@@ -17,9 +17,6 @@ import java.util.Map;
  * Created by Dmytro Honchar
  * Date: 7/18/2022
  */
-
-
-
 @Service
 public class ToDoRestClient {
     private final RestTemplate restTemplate;

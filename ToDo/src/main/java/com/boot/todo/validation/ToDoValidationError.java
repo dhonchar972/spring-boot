@@ -9,7 +9,6 @@ import java.util.List;
  * Created by Dmytro Honchar
  * Date: 7/14/2022
  */
-
 public class ToDoValidationError {
     @JsonInclude(JsonInclude.Include.NON_EMPTY)
     private final List<String> errors = new ArrayList<>();

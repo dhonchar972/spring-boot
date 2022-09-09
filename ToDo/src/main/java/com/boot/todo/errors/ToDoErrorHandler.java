@@ -13,7 +13,6 @@ import java.nio.charset.Charset;
  * Created by Dmytro Honchar
  * Date: 7/18/2022
  */
-
 public class ToDoErrorHandler extends DefaultResponseErrorHandler {
     private final Logger log = LoggerFactory.getLogger(ToDoErrorHandler.class);
 

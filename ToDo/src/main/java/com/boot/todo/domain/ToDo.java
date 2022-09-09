@@ -10,7 +10,6 @@ import java.util.UUID;
  * Created by Dmytro Honchar
  * Date: 7/14/2022
  */
-
 @Data
 public class ToDo {
     @NotNull

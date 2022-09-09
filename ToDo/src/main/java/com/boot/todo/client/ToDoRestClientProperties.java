@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
  * Created by Dmytro Honchar
  * Date: 7/18/2022
  */
-
 @Component
 @ConfigurationProperties(prefix="todo")
 @Data

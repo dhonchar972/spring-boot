@@ -17,7 +17,6 @@ import java.util.List;
  * Created by Dmytro Honchar
  * Date: 7/14/2022
  */
-
 @SpringBootApplication
 public class SimpleApplication {
     public static void main(String[] args) {
@@ -49,7 +48,6 @@ public class SimpleApplication {
 //                _args.forEach(log::info);
 //        }
 //    }
-
 }
 
 //@SpringBootApplication

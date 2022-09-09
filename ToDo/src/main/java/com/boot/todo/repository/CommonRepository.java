@@ -6,7 +6,6 @@ import java.util.Collection;
  * Created by Dmytro Honchar
  * Date: 7/14/2022
  */
-
 public interface CommonRepository<T> {
     public T save(T domain);
 

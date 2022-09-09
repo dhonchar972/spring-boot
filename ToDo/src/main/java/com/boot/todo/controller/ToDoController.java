@@ -19,7 +19,6 @@ import java.net.URI;
  * Created by Dmytro Honchar
  * Date: 7/14/2022
  */
-
 @RestController
 @RequestMapping("/api")
 public class ToDoController {

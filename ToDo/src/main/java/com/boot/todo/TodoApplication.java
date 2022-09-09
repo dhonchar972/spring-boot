@@ -14,7 +14,6 @@ import org.springframework.context.annotation.Bean;
  * Created by Dmytro Honchar
  * Date: 7/14/2022
  */
-
 @SpringBootApplication
 public class TodoApplication {
     private final Logger log = LoggerFactory.getLogger(TodoApplication.class);

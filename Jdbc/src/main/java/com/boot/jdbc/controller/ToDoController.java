@@ -80,5 +80,4 @@ public class ToDoController {
     public ToDoValidationError handleException(Exception exception) {
         return new ToDoValidationError(exception.getMessage());
     }
-
 }
