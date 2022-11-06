@@ -9,9 +9,7 @@ public class ToDoBuilder {
     private String id = null;
     private String description = "";
 
-    private ToDoBuilder() {
-
-    }
+    private ToDoBuilder() { }
 
     public static ToDoBuilder create() {
         return instance;
